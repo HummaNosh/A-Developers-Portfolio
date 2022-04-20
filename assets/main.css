@@ -84,7 +84,9 @@ h4 {
 .dropdown-menu li a:hover {
   background-color: goldenrod;
 }
-
+.navbar-default .navbar-nav>li>a{
+color:white;
+}
 /* Most sections */
 
 .hero {
