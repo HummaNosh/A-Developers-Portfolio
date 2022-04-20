@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A little bit about Humma..</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/main.css" />
+  </head>
+
+  <!-- NAV BAR -->
+  <body id="mainPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle float-left"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"></a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#mainPage">HOME</a></li>
+            <li><a data-toggle="modal" data-target="#AboutMe" >ABOUT ME</a></li>
+            <li><a href="#projects">RECENT PROJECTS</a></li>
+            <li><a href="#more">MORE</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown"
+                >CONTACT ME <span class="caret"></span
+              ></a>
+
+              <ul class="dropdown-menu">
+                <li><a data-toggle="modal" data-target="#Linked" >Linkedin</a></li>
+                <li><a data-toggle="modal" data-target="#Git" >GitHub</a></li>
+                <li><a data-toggle="modal" data-target="#mail">Email</a></li>
+                <li><a data-toggle="modal" data-target="#mob" >Mobile</a></li>
+                <li><a data-toggle="modal" data-target="#cv">Curriculum Vitae</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Background pic -->
+    <div>
+      <div class="backgroundlaptop bg-1">
+        <div class="hero">
+        
+          <img id="logo" src="./assets/goldlogo.png" alt="logo"/>
+          <h3 id="welcome">Welcome to my Profile</h3>
+          <p id="Iam">My name is Humma Noshine. I am an enthusiastic software developer interested in managing software operations, problem-solving, designing user-face products and coding challenges.</p>
+        </div>
+      </div>
+
+    <!-- RECENT PROJECTS-->
+    <div id="projects" class="bg-2">
+      <div class="container">
+        <h3 class="text-center">Recent Projects</h3>
+    <br>
+    <!-- Weight a minute -->
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              
+              <img id="thumbPic"
+                src="./assets/WAMscreenshot.png"
+                alt="A screenshot of the Weight A Minute app"
+              />
+              <p class="projectName">
+                <strong>Weight A Minute- Group project</strong>
+              </p>
+              <p>Completed on 16th April 2022</p>
+
+              <button class="btn" data-toggle="modal" data-target="#WAM">
+                More Info
+              </button>
+            </div>
+          </div>
+                <!-- Tech blog -->
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                
+                <img id="thumbPic"
+                  src=""
+                  alt="A screenshot of my tech blog"
+                />
+                <p class="projectName">
+                  <strong>Techy Blog</strong>
+                </p>
+                <p>Completed on2022</p>
+  
+                <button class="btn" data-toggle="modal" data-target="#Techy">
+                  More Info
+                </button>
+              </div>
+            </div>
+            <!-- E-Commerce-->
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img id="thumbPic"
+                  src="./assets/ecommerce.png"
+                  alt="A screenshot of my Ecommerce site"
+                />
+                <p class="projectName">
+                  <strong>E-Commerce Site</strong>
+                </p>
+                <p>Completed on 16th April 2022</p>
+  
+                <button class="btn" data-toggle="modal" data-target="#ECOM">
+                  More Info
+                </button>
+              </div>
+            </div>
+
+
+
+
+      
+        <!-- Check out more projects button -->
+        <div class="container bg-light" id="more">
+          <div class="col-md-12 text-center">
+            <button type="button" class="btn2" >
+             <a
+            href="./projects.html"
+            target="_blank"> CHECKOUT MORE PROJECTS</button></a>
+          </div>
+        </div>
+      </div>
+<br>
+      <!-- --------------------------------------------------------------------------------------------------------------- -->
+
+      <!-- MODALS -->
+
+ <!-- WAM modal -->
+ <div class=" modal fade" id="WAM" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          ×
+        </button>
+        <h4><span class="glyphicon glyphicon-glass"></span> Weight A Minute</h4>
+      </div>
+      <div class="modal-body">
+        <h4 class="header">How I felt during this project?</h4>
+        <p class="modText">Much calmer than previous projects! - a range of new technologies to execute and learnt 2 new libraries too!  </p>
+        <h4 class="header">Tools Used</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>Javascript</li>
+          <li>AWS/S3 -New</li>
+          <li>Chart.js</li>
+          <li>Node.js</li>
+          <li>J Query</li>
+          <li>Express.js</li>
+          <li>Handlebars</li>
+          <li>MVC</li>
+        </ul>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://github.com/HummaNosh/Weight-A-Minute#readme"
+            target="_blank"
+          >
+          README File
+        </button></a>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://whispering-caverns-47180.herokuapp.com/"
+            target="_blank"
+          >
+          Deployed Application
+        </button></a>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://github.com/HummaNosh/Weight-A-Minute"
+            target="_blank"
+          >
+          GitHub Repository
+        </button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Techy modal -->
+<div class=" modal fade" id="Techy" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          ×
+        </button>
+        <h4><span class="glyphicon glyphicon-glass"></span> Techy Tech Tech Blog</h4>
+      </div>
+      <div class="modal-body">
+        <h4 class="header">How I felt during this project?</h4>
+        <p class="modText">A bit crazy - I am sticking my newly developed skills together, and making this work!!  </p>
+        <h4 class="header">Tools Used</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>Javascript</li>
+          <li>AWS/S3 -New</li>
+          <li>Chart.js</li>
+          <li>Node.js</li>
+          <li>J Query</li>
+          <li>Express.js</li>
+          <li>Handlebars</li>
+          <li>MVC</li>
+        </ul>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://github.com/HummaNosh/Techy-Bloggy-Blog#readme"
+            target="_blank"
+          >
+          README File
+        </button></a>
+        <button type="submit" class="btn btn-block">
+          <a
+            href=""
+            target="_blank"
+          >
+          Deployed Application
+        </button></a>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://github.com/HummaNosh/Techy-Bloggy-Blog"
+            target="_blank"
+          >
+          GitHub Repository
+        </button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ <!-- Ecommerce modal -->
+ <div class=" modal fade" id="ECOM" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          ×
+        </button>
+        <h4><span class="glyphicon glyphicon-glass"></span> E-Commerce Site ORM</h4>
+      </div>
+      <div class="modal-body">
+        <h4 class="header">How I felt during this project?</h4>
+        <p class="modText"> Not fun at all!!!</p>
+        <h4 class="header">Tools Used</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>Javascript</li>
+          <li>Node.js</li>
+          <li>J Query</li>
+          <li>Express.js</li>
+          <li>Handlebars</li>
+          <li>MVC</li>
+          <li>ORM</li>
+        </ul>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://github.com/HummaNosh/E-Commerce-site-ORM#readme"
+            target="_blank"
+          >
+          README File
+        </button></a>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://drive.google.com/file/d/1WFjyd1p1qBcm8rfpvy30c0poxRXNC9uj/view?usp=sharing, https://drive.google.com/file/d/1NXjdRow6Vd_1_Jz5l-6aJdKDkXjld8k-/view?usp=sharing, https://drive.google.com/file/d/1gSHcgKBqgKrxMYvyG9ODL1eemRoqBwAN/view?usp=sharing"
+            target="_blank"
+          >
+          Walk-through Videos
+        </button></a>
+        <button type="submit" class="btn btn-block">
+          <a
+            href="https://github.com/HummaNosh/E-Commerce-site-ORM"
+            target="_blank"
+          >
+          GitHub Repository
+        </button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ 
+    <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- About me MODAL-->
+    <div class="modal fade" id="AboutMe" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              ×
+            </button>
+            <h4><img id="avatar"src="./assets/me.png" alt="an avatar of me"/>About Me</h4>
+          </div>
+          <div class="modal-body">
+            <p class="modText">I am an Junior Software developer with a proven track record in Sales and Marketing.</p>
+
+            <p class="modText">I have recently earned a coding certificate in full stack development from the
+              University of Birmingham. I have newly developed skills in HTML, JavaScript, CSS, React.js, responsive web design and a lot more!!</p>
+              
+              <p class="modText">I am interested in managing software operations, problem-solving, designing user-face products and coding. I am looking to enhance my career by proving the knowledge and skills I have recently received. 
+              My biggest strength and also what I am most known for is,  to be an innovative problem solver and passionate about ‘cracking code’ whilst developing apps which are focused around mobile designs and development. 
+              With every project I work on, my intention is to always ensure my audience are engaged for an impactful user experience. </p>
+              
+              <p class="modText"> I love working in a collaborative environment, I have worked on a team of 5-6 members whom each work together in order to create quality projects. </p>
+              
+              <p class="modText"> I am very excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
+              </p>
+           <img id="funnyPic"src="./assets/wp1828911-programmer-wallpapers.jpg" alt="funny coders background"/>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- MODALS FOR CONTACT ME DROPDOWN-->
+
+<!-- Linkedin modal -->
+<div class="modal fade" id="Linked" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            ×
+          </button>
+          <h4>LinkedIn</h4>
+        </div>
+        <div class="modal-body">
+         
+          </button></a>
+          <button type="submit" class="btn btn-block">
+            <a
+              href="https://www.linkedin.com/in/humma-n-60b057174/"
+              target="_blank"
+            >
+            Click to view Profile
+          </button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Github modal-->
+<div class="modal fade" id="Git" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            ×
+          </button>
+          <h4>GitHub</h4>
+        </div>
+        <div class="modal-body">
+         
+          </button></a>
+          <button type="submit" class="btn btn-block">
+            <a
+              href="https://github.com/HummaNosh"
+              target="_blank"
+            >
+            Click to view Profile
+          </button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Email modal-->
+<div class="modal fade" id="mail" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            ×
+          </button>
+          <h4>Email Address</h4>
+        </div>
+        <div class="modal-body">
+         
+          </button></a>
+          <button type="submit" class="btn btn-block">
+            hummanoshine@yahoo.co.uk
+          </button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile modal -->
+<div class="modal fade" id="mob" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            ×
+          </button>
+          <h4>Mobile</h4>
+        </div>
+        <div class="modal-body">
+         
+          </button></a>
+          <button type="submit" class="btn btn-block">
+            PLEASE GET IN TOUCH VIA EMAIL
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  CV modal-->
+<div class=" modal fade" id="cv" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            ×
+          </button>
+          <h4>Curriculum Vitae</h4>
+        </div>
+        <div class="modal-body">
+         
+          </button></a>
+          <button type="submit" class="btn btn-block">
+            <a
+            href="./assets/Software developer CV 2022.pdf"
+            target="_blank"
+          >
+            Click to view my CV
+          </button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <a class="up-arrow" href="#mainPage" title="TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span> </a
+      ><br /><br />
+      <p>
+        Made by Humma Noshine with 🖤
+      </p>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
