@@ -6,6 +6,7 @@ h4 {
   color: black;
 }
 
+
 /* Laptop pic */
 .backgroundlaptop img {
   width: 100%;
@@ -140,19 +141,35 @@ h4 {
   text-shadow: 5px 5px 5px black;
 }
 
+img {
+  background-color: transparent;
+}
+.thumbnail:hover {
+  background-color: white;
+}  
 .thumbnail {
   padding: 0;
   border: none;
   border-radius: 2rem;
   height: 400px;
   box-shadow: 5px 5px 5px black;
+  background-color: #5d4a1f;
 }
 
 #thumbPic {
+border: solid black;
+  padding: 2rem;
   height: auto;
   height: 250px;
   width: 100%;
 }
+
+#thumbPic2 {
+    padding: 2rem;
+    height: auto;
+    height: 250px;
+    width: 100%;
+  }
 .thumbnail:hover {
   box-shadow-hover: #5d4a1f;
 }
