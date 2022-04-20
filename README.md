@@ -7,6 +7,7 @@ Tools used:
 HTML CSS Javascript Bootstrap JQuery
 
 Screenshot of website:
+![image](https://user-images.githubusercontent.com/93604239/164336538-cd1348ea-6f8a-40f3-9a21-3ab0d46f0b7a.png)
 
 Deployed Link: https://hummanosh.github.io/A-Developers-Portfolio/
 
