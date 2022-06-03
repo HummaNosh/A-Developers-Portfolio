@@ -343,6 +343,10 @@ footer a:hover {
   #AboutMe {
     width: 70rem;
   }
+
+  .bg-1 #Iam{
+    font-size: 20px;
+  }
 }
 @viewport {
   width: device-width;
